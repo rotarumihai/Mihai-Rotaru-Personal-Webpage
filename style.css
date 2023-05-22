@@ -436,11 +436,37 @@ form button:hover {
   background: aliceblue;
 }
 
+
+#or:before{
+  content:" ";
+  height: 2px;
+  width: 600px;
+  background: aliceblue;
+  display: block;
+  position: absolute;
+  
+  left: 0;
+}
+
+#or:after{
+  content:" ";
+  height: 2px;
+  width: 600px;
+  background: aliceblue;
+  display: block;
+  position: absolute;
+/*  top: 50%; */
+  right: 0;
+}
+
 /* FOOTER */
 
-#footer {
+#footer  {
 
-  text-align: end;
+  position: absolute;
+  bottom: 1;
+  right: 0;
+  margin-right: 1px;
   
   color: aliceblue;
   
@@ -450,7 +476,7 @@ form button:hover {
   padding: 5px;
   border: none;
  
-  margin-right: 5px;
+ 
   
   font-size: 15px;
   font-weight: bold;
