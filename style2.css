@@ -1,0 +1,167 @@
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 400px) {
+
+
+    body {
+      height: 2000px;
+      font-size: 0.7rem;
+  
+    }
+  
+    .navbar {
+  
+      width: 400px;
+      height: 60px;
+    }
+  
+    .navbar a {
+  
+      padding: 20px 14px;
+      font-size: 17px;
+    }
+  
+    a {
+  
+      font-size: 10px;
+    }
+  
+    .hobbies img, iframe {
+  
+      width: 130px;
+      height: 80px;
+    }
+  
+    #profile-image {
+      width: 110px;
+      height: 150px;
+  
+    }
+  
+    .iframe {
+  
+  
+      display: flex;
+    }   
+  
+  
+  }
+  
+  @media only screen and (min-width: 1255px) {
+  
+  
+  }
+  
+  @media only screen and (min-width: 1920px) {
+
+    .profile {
+
+        font-size: 1.1rem;
+    }
+
+    #profile-image {
+
+        width: 300px;
+        height: 400px;
+    }
+  
+    .back-to-top {
+      
+      right: 3rem;
+      bottom: 3rem;
+      
+      padding: 1rem;
+     
+    }
+    
+    
+    
+    .back-to-top-icon {
+      width: 2rem;
+      height: 2rem;
+      
+    }
+    
+    .progress-bar {
+      height: 2.5rem;
+      
+     
+    }
+    
+  
+    .skillbar-wrapper {
+      margin: 1.7em auto;
+      max-width: 1350px;
+    }
+  
+    .skillbar {
+  
+      height: 50px;
+    }
+  
+    .skillbar-title {
+      
+      width:150px;
+      
+      font-size: 20px;
+      
+    }
+  
+    .skillbar-title span {
+      
+      padding: 0 30px;
+      height:50px;
+      line-height: 50px;
+      
+    }
+    
+    .skillbar-bar {
+      height: 50px;
+     
+    }
+  
+    .skill-bar-percent {
+      
+      right: 20px;
+      
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+      
+    }
+  
+    .row {
+     
+      gap: 3em;
+    }
+  
+   
+    
+    iframe {
+  
+     width: 600px;
+     height: 350px;
+     margin: 5px;
+    }
+  
+    .hobbies img {
+  
+      width: 620px;
+      height: 320px;
+    }
+  
+    #or:before{
+      
+      width: 900px;
+      
+    }
+    
+    #or:after{
+      
+      width: 900px;
+      
+    }
+  
+  }
