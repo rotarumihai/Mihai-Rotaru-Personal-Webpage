@@ -1,4 +1,6 @@
-
+window.onbeforeunload = function() {
+  return "Sure you want to leave this webpage?";
+};
 
 
 /*window.onbeforeunload = function() {
@@ -100,11 +102,21 @@ document.getElementById('webpage1').onclick = function() {
 })();
 
 (function() {
-  document.addEventListener( "DOMContentLoaded", function() {
+  document.addEventListener( "mouseover", function() {
     var skills = new SkillsBar( ".skillbar-bar" );
   });
 })();
 
+/* Or you can use: */
+
+/*
+
+(function() {
+  document.addEventListener( "DOMContentLoaded", function() {
+    var skills = new SkillsBar( ".skillbar-bar" );
+  });
+})();
+*/
 
 
 /* HOBBIES IMG EFFECT */
