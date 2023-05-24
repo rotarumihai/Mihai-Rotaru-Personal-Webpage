@@ -9,18 +9,18 @@
 The goal of the project was to create a personalized page that would introduce visitors to the achievements, professional experience and other details.
 ## The following tools were used to create the page:
 
-### 1) HTML
-### 2) CSS, Responsive Design
-### 3) JavaScript
-### 4) Git & GitHub
+#### 1) HTML
+#### 2) CSS, Responsive Design
+#### 3) JavaScript
+#### 4) Git & GitHub
 
 
 ## 3. Credits to:
 
-### - Google
-### - stackoverflow.com
-### - w3schools.com
-### - MDN Web Docs 
+#### - Google
+#### - stackoverflow.com
+#### - w3schools.com
+#### - MDN Web Docs 
 
 
 ## 4. MIT License
